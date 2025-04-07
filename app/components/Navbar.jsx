@@ -48,7 +48,7 @@ const NavbarContainer = styled.nav`
 
   ${({ $scrolled }) => !$scrolled && `
     background-color: transparent;
-    padding-top: 1.5rem;
+    ;
     padding-bottom: 1.5rem;
 
     @media (min-width: 480px) {
@@ -69,7 +69,7 @@ const NavContent = styled.div`
   justify-content: space-between;
   align-items: center;
   transition: all 0.3s ease;
-  ${({ $scrolled }) => $scrolled ? 'padding: 0;' : 'padding-top: 1.5rem;'}
+  ${({ $scrolled }) => $scrolled ? 'padding: 0;' : ''}
 `;
 
 const NavLogo = styled(Image)`
