@@ -19,6 +19,7 @@ const BookTutorContainer = styled.div`
 
   }
 `;
+
 const StyledImage = styled(Image)`
   width: 100%;
   height: 250px;
@@ -66,7 +67,6 @@ const HeadingMain = styled.h1`
     font-size: 48px;
   }
 `;
-
 const Heading = styled.h2`
   font-family: "Lexend", sans-serif;
   font-weight: 600;
@@ -109,6 +109,7 @@ const StyledButton = styled(Button)`
       font-size: 16px;
     }
 `;
+
 
 const Book_A_Tutor = () => {
   return (

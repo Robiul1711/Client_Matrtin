@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Lexend as LexendFont, Open_Sans as OpenSansFont } from "next/font/google";
+import {Lexend as LexendFont, Open_Sans as OpenSansFont } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";

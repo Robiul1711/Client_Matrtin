@@ -2,11 +2,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-
-
-
 const AskQuestionContainer = styled.div`
-    font-family: 'Lexend', sans-serif;
+  font-family: 'Lexend', sans-serif;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -15,7 +12,6 @@ const AskQuestionContainer = styled.div`
   gap: 1.25rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-
   @media (min-width: 768px) {
     flex-direction: row;
     gap: 1.5rem;
@@ -54,7 +50,6 @@ const Heading = styled.h1`
     font-size: 48px;
   }
 `;
-
 const HeadingSpan = styled.span`
   color: #025DE9;
   font-size: 1.25rem;

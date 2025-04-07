@@ -127,7 +127,6 @@ const SubjectsSection = styled.div`
     margin-top: 6.25rem;
   }
 `;
-
 const SubjectsHeading = styled.h2`
   font-size: 1.25rem;
   font-weight: 600;

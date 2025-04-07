@@ -17,7 +17,6 @@ const FooterContainer = styled.footer`
   margin-bottom: 24px;
   font-family: ${sans.style.fontFamily};
 `;
-
 const FooterContent = styled.div`
   display: flex;
   flex-direction: column;
@@ -29,6 +28,7 @@ const FooterContent = styled.div`
     align-items: flex-start;
   }
 `;
+
 const Paragraph = styled.p`
   font-size: 14px;
   line-height: 1.6;
@@ -94,7 +94,6 @@ const LinksGrid = styled.div`
     grid-template-columns: repeat(3, max-content);
   }
 `;
-
 const SectionTitle = styled.h2`
   font-size: 1rem;
   font-weight: 600;

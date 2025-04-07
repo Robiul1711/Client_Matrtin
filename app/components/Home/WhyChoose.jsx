@@ -23,6 +23,7 @@ margin-top: 4rem;
     padding-right: 1.25rem;
     gap: 2.5rem;
   }
+
   @media (min-width: 768px) {
     margin-top: 5rem;
     flex-wrap: nowrap;
@@ -52,7 +53,6 @@ const Heading = styled.h1`
     font-size: 48px;
   }
 `;
-
 const HeadingSpan = styled.span`
   color: #025DE9;
   font-size: 1.25rem;
@@ -272,7 +272,6 @@ const WhyChoose = () => {
             <FeatureTitle>{item.title}</FeatureTitle>
           </TutorFeature>
         ))}
-
         <StyledButton >Book A Tutor Right Here</StyledButton>
       </ContentContainer>
     </WhyChooseContainer>

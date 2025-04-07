@@ -17,18 +17,15 @@ margin-top: 4rem;
   padding-right: 1rem;
   font-family: 'Lexend', sans-serif;
   @media (min-width: 650px) {
-
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     gap: 2.5rem;
   }
-
   @media (min-width: 768px) {
     margin-top: 5rem;
     flex-wrap: nowrap;
     gap: 4rem;
   }
-
   @media (min-width: 1440px) {
     margin-top: 7.5rem;
     gap: 8.125rem;
@@ -44,7 +41,7 @@ const Heading = styled.h1`
     font-size: 2rem;
   }
   @media (min-width: 768px) {
-    
+  
   }
   @media (min-width: 1280px) {
     font-size: 2.5rem;

@@ -77,7 +77,6 @@ const ContentWrapper = styled.div`
   }
 `;
 
-
 const BannerHeading = styled.h1`
   font-family: 'Lexend', sans-serif;
   font-size: 24px;
