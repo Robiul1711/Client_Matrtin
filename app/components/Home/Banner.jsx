@@ -57,6 +57,7 @@ const ContentWrapper = styled.div`
   text-align: center;
   transform: translate(-50%, -50%);
   z-index: 20;
+  margin-top:-40px;
 
   @media (min-width: 640px) {
     top: 50%;
@@ -85,6 +86,7 @@ const BannerHeading = styled.h1`
   color: #000;
   @media (min-width: 640px) {
     font-size: 32px;
+   
   }
   @media (min-width: 768px) {
     font-size: 36px;
